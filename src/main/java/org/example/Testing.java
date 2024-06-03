@@ -3,8 +3,6 @@ package org.example;
 import java.util.List;
 
 public class Testing {
-
-
         public static void main(String[] args) {
             Graph graph = new Graph();
 
@@ -23,12 +21,5 @@ public class Testing {
             // Get neighbors of a vertex
             List<Integer> neighbors = graph.getNeighbors(2);
             System.out.println("Neighbors of vertex 2: " + neighbors);
-
-
-
-
         }
-
-
-
 }
