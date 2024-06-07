@@ -5,7 +5,7 @@ import java.util.*;
 public class Algorithms {
 
 
-
+Stack<String> stack = new Stack<>();
         public static void main(String[] args) {
             System.out.println("Prime numbers between 1 to 100:");
 

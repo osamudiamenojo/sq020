@@ -1,8 +1,5 @@
 package org.example;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Hashtable;
 import java.util.LinkedList;
 
 class MyHashMap<K, V> {
