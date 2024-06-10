@@ -1,4 +1,7 @@
 package org.example;
+
+import java.util.LinkedList;
+
 public class LinkedListQueue {
     private static class Node {
         private int data;
@@ -69,4 +72,5 @@ public class LinkedListQueue {
         System.out.println("Front element: " + queue.peek());
         System.out.println("Queue size: " + queue.getSize());
     }
+
 }

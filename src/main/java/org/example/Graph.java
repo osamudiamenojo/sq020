@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.*;
 
-    public class Graph {
+public class Graph {
         private Map<Integer, List<Integer>> adjacencyList;
 
         public Graph() {
@@ -31,5 +31,5 @@ import java.util.*;
                 System.out.println();
             }
         }
-    }
+}
 
