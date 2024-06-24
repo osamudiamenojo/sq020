@@ -1,4 +1,9 @@
 package org.example;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 class StackArray {
     private int maxSize;
     private int[] stackArray;
@@ -43,6 +48,8 @@ class StackArray {
     public boolean isFull() {
         return (top == maxSize - 1);
     }
+
+    
 //
 //    public static void main(String[] args) {
 //        StackArray stack = new StackArray(5);
